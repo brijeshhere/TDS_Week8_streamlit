@@ -8,8 +8,8 @@ st.write("""
 st.header('User Input Parameters')
 
 
-a = st.number_input("a",step=1)
-b= st.number_input("b",step=1)
-c= st.number_input("c",step=1)
+a = st.number_input("a")
+b= st.number_input("b")
+c= st.number_input("c")
 
 st.write(max(a,b,c))
