@@ -8,8 +8,9 @@ st.write("""
 st.header('User Input Parameters')
 
 
-a = st.number_input("a")
-b= st.number_input("b")
-c= st.number_input("c")
+a = st.number_input("First Number")
+b= st.number_input("Second Number")
+c= st.number_input("third Number")
 
+st.header('Max of three')
 st.write(max(a,b,c))
